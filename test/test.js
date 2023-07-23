@@ -10,3 +10,10 @@ describe('Add function', () => {
   });
 });
 
+describe('Substract function', () => {
+  it('should return the difference of two numbers', () => {
+    const result = app.substract(10, 3);
+    expect(result).to.equal(7);
+  });
+});
+
