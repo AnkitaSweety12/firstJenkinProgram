@@ -1,0 +1,28 @@
+{
+  "name": "first-node-jenkin-project",
+  "version": "1.0.0",
+  "description": "First Jenkins project to automate test and build processes",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnkitaSweety12/firstJenkinProgram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkitaSweety12/firstJenkinProgram/issues"
+  },
+  "homepage": "https://github.com/AnkitaSweety12/firstJenkinProgram#readme"
+}
